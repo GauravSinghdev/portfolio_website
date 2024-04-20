@@ -12,6 +12,6 @@ export default defineConfig({
   // below line is req for github pages deployment.
 
   build:{
-    outDir:"./docs",   
+    outDir: './docs',   
   },
 });
