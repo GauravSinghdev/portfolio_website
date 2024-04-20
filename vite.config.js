@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  base: '/portfolio_website',
+  base: '/portfolio_website/',
   
   // -----> this is for removing error after github pages deployed successfully and to run the website.
 
