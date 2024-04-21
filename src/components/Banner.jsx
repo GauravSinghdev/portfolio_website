@@ -39,21 +39,21 @@ const Banner = () => {
                 <div className='w-2/3'>
                     <h3 className='mt-5 text-4xl font-semibold text-white '>Hi, I am</h3>
                     <h1 className='mt-2 text-5xl font-bold text-white '>Gaurav Singh</h1>
-                    <h2 className='mt-2 text-4xl text-white'>And I am <span className='font-semibold text-cyan-400 underline decoration-white underline-offset-4' ref={el}></span></h2>
+                    <h2 className='mt-2 text-4xl text-white'>And I am a <span className='font-semibold text-cyan-400 underline decoration-white underline-offset-4' ref={el}></span></h2>
                     <br />
                     <p className='mb-5 text-white'>
                     Seeking a challenging role as a web developer where I can utilize my expertise in front-end and back-end development to create seamless and engaging online experiences. Passionate about collaborating with cross-functional teams to deliver high-quality, scalable solutions that drive business growth and user satisfaction.
                     </p>
 
                     <div className="socials-container space-x-5 flex">
-                        <a href ="https://www.linkedin.com/in/gaurav-singh-898072176/" target='__blank' className='w-12 h-12 p-2 rounded-full flex justify-center -none bg-gray-800  text-white hover:-1 cursor-pointer hover:scale-110'>
-                            <i className="fa-brands text-3xl fa-linkedin"></i>
+                        <a href ="https://www.linkedin.com/in/gaurav-singh-898072176/" target='__blank' className='w-12 h-12 p-2 rounded-full flex justify-center -none bg-gray-800  text-white hover:-1 cursor-pointer hover:scale-110  hover:bg-white hover:text-black'>
+                            <i className="fa-brands text-2xl fa-linkedin"></i>
                         </a>
-                        <a href="https://twitter.com/codewithkara" target='__blank' className='w-12 h-12 p-2 rounded-full flex justify-center -none bg-gray-800  text-white  hover:  cursor-pointer hover:scale-110'>
-                            <i className="fa-brands text-3xl fa-x-twitter"></i>
+                        <a href="https://twitter.com/codewithkara" target='__blank' className='w-12 h-12 p-2 rounded-full flex justify-center -none bg-gray-800  text-white  hover:  cursor-pointer hover:scale-110  hover:bg-white hover:text-black'>
+                            <i className="fa-brands text-2xl fa-x-twitter"></i>
                         </a>
-                        <a href="https://github.com/GauravSinghdev" target='__blank' className='w-12 h-12 p-2 rounded-full flex justify-center -none bg-gray-800 text-white hover:  cursor-pointer hover:scale-110'>
-                            <i className="fa-brands text-3xl fa-github"></i>
+                        <a href="https://github.com/GauravSinghdev" target='__blank' className='w-12 h-12 p-2 rounded-full flex justify-center -none bg-gray-800 text-white hover:  cursor-pointer hover:scale-110  hover:bg-white hover:text-black'>
+                            <i className="fa-brands text-2xl fa-github"></i>
                         </a>
                     
                     

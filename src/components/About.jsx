@@ -4,12 +4,12 @@ const About = () => {
 
     const [data, setData] = useState({
         title: "About",
-        desc1: "Hey Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, consectetur eius fuga sapiente neque velit fugit. Praesentium reiciendis, consequatur quidem possimus amet ullam qui assumenda deleniti cupiditate aspernatur esse tempora.  HEy Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, consectetur eius fuga sapiente neque velit fugit. Praesentium reiciendis, consequatur quidem possimus amet ullam qui assumenda deleniti cupiditate aspernatur esse tempora.",
+        desc1: "I am a B.Tech graduate of 2021, majoring in Computer Science Engineering, currently living in my hometown, Haldwani (Uttarakhand). Currently seeking opportunities to leverage my skills and knowledge in a dynamic work environment where I can continue to grow both personally and professionally. I'm eager to apply my expertise and make meaningful contributions.",
         desc2: "Dynamic and results-oriented software web developer with a passion for crafting elegant and efficient solutions. Proficient in front-end and back-end technologies, adept at translating client needs into user-friendly web applications. Experienced in Agile methodologies and collaborative team environments. Dedicated to staying updated with the latest trends and technologies to deliver cutting-edge solutions that drive business success.",
-        actionbtn: {
-            title: "Read more .  .  .",
-            hcontent: "This was hidden"
-        }
+        // actionbtn: {
+        //     title: "Read more .  .  .",
+        //     hcontent: "This was hidden"
+        // }
     })
 
     function hidden()
@@ -28,7 +28,7 @@ const About = () => {
             <br />
             <p className="text-white text-1lg">{data.desc2}</p>
 
-            <button className= "text-2lg mt-2 text-gray-400 hover:text-orange-500" onClick={hidden}>{data.actionbtn.title}</button>
+            {/* <button className= "text-2lg mt-2 text-gray-400 hover:text-orange-500" onClick={hidden}>{data.actionbtn.title}</button> */}
         </div>
         
         </>
