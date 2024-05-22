@@ -50,19 +50,22 @@ const Banner = () => {
                         </a>
                     </div>
                     <br />
+                    
+
+                    <div className="md:hidden hover:scale-105 mb-3 h-12 w-36 text-center text-lg">
+                        {/* buttons */}
+                        <a href="GS_Resume.pdf" download="Gaurav_Resume.pdf" className="h-[45px] w-36 text-center flex bg-orange-400 text-white font-bold shadow py-2 px-7 rounded-md me-28">
+                            Resume
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3.5" stroke="currentColor" className="w-5 h-5 text-white ms-1 mt-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                        </a>
+                    </div>
+
                     <button className="h-12 md:h-15 w-36 md:w-38 bg-orange-400 text-white font-bold shadow py-2 px-4 text-lg rounded-md hover:scale-105">
                         <Link to={link.lnk} smooth duration={500}>{link.title}</Link>
                     </button>
 
-                    <div className="md:hidden hover:scale-105 mt-5 h-12 w-36 text-center text-m">
-                    {/* buttons */}
-                    <a href="GS_Resume.pdf" download="Gaurav_Resume.pdf" className="h-[45px] w-36 text-center flex bg-orange-400 text-white font-bold shadow py-3 px-8 rounded-md me-28">
-                        Resume
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" className="w-5 h-5 text-white ms-1">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                        </svg>
-                    </a>
-                </div>
                 </div>
             </div>
             {/* 2nd div */}
