@@ -66,7 +66,7 @@ const Banner = () => {
                 </div>
             </div>
             {/* 2nd div */}
-            <div className="w-full mt-16 md:mt-0 md:ps-20 flex justify-center md:justify-end">
+            <div className="w-full mt-16 md:mt-0 md:ps-20 flex justify-center me-20">
                 {/* big image of me */}
                 <img className='mt-8 md:mt-32 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl' src={bannerImage} />
             </div>
